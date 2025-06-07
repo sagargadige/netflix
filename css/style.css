@@ -91,6 +91,7 @@ header {
     font-family: "Roboto", sans-serif;
     background-color: transparent;
     color: white;
+    appearance: none;
 }
 
 .languages select:focus {
@@ -118,46 +119,6 @@ header a:hover {
 /* header end  */
 
 /* hero start  */
-
-    /* curve section starts  */
-
-        .hero .curve {
-            position: relative;
-            height: 6.75rem;
-            overflow-x: hidden;
-            z-index: 1;
-        }
-
-        .curve .curve-upperbound {
-            height: 15%;
-            position: absolute;
-            top: 670px;
-            border: solid .25rem transparent;
-            border-top-left-radius: 50% 100%;
-            border-top-right-radius: 50% 100%;
-            border-bottom: none;
-            background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
-            width: 130%;
-            left: -15%;
-            margin: auto;
-            overflow: hidden;
-            z-index: 0;
-        }
-
-        .curve .curve-upperbound::before {
-            position: absolute;
-            content: '';
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            border-radius: inherit;
-            background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
-            z-index: -1;
-            margin-top: -4px;
-        }
-
-        /* curve section ends */
 .hero {
     background: url('../images/bg.jpg'), rgba(0, 0, 0, 0.634);
     background-blend-mode: darken;
@@ -206,6 +167,9 @@ header a:hover {
 
 /* hero end  */
 /* trending section start  */
+
+
+
 .trending {
     padding: 60px 0;
 }
@@ -370,9 +334,11 @@ footer p {
     font-family: sans-serif;
     padding-bottom: 50px;
 }
-footer .col-3{
+
+footer .col-3 {
     padding: 0;
 }
+
 footer p a {
     color: rgba(255, 255, 255, 0.7);
     text-decoration: underline;
@@ -390,12 +356,29 @@ footer ul li a {
     transition: 0.3s;
     width: max-content;
 }
-footer ul li a:hover{
+
+footer ul li a:hover {
     color: #767575;
 }
-footer .text{
+
+footer .text {
     padding-top: 40px;
     color: rgba(255, 255, 255, 0.7);
 }
-
+.languages-footer{
+    background-color: rgba(0, 0, 0, 0.266);
+    padding: 4px 7px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.437);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.languages-footer select{
+    border: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+    color: white;
+    appearance: none;
+}
 /* footer end  */
