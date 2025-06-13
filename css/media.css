@@ -51,7 +51,7 @@
     .trending-content h2 {
         position: absolute;
         top: 55%;
-        left: 23%;
+        left: 13%;
     }
     .reason-item{
         height: 230px;
@@ -78,19 +78,19 @@
 }
 
 /* xxl */
-@media (max-width:1500px){
+/* @media (max-width:1500px){
     .container-xxl{
         max-width: 1320px;
     }
-}
+} */
 /* xl */
-@media (max-width:1399px){
+/* @media (max-width:1399px){
     .container-xl{
         max-width: 1140px;
     }
-}
+} */
 /* lg */
-@media (max-width:1199px){
+/* @media (max-width:1199px){
     .container-lg{
         max-width: 960px;
     }
@@ -108,9 +108,9 @@
     }
     
 
-}
+} */
 /* md */
-@media (max-width:991px){
+/* @media (max-width:991px){
     .container-md{
         max-width: 720px;
     }
@@ -119,4 +119,4 @@
         padding: 0 15px;
     }
     
-}
+} */
